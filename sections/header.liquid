@@ -1,14 +1,18 @@
-<section>Smarten up your work look or throw on a blazer with jeans for the weekend</section>
+<section>
+  Smarten up your work look or throw on a blazer with jeans for the weekend
+  <br>
+  <img src="{{section.settings.image_header |  image_url: width: 1500 | image_tag}}" alt="">
+</section>
 
 {% schema %}
 {
   "name": "Header",
   "settings": [
     {
-        "type": "image_picker",
-        "id": "image",
-        "label": "Pick Image",
-        "info": "Pick an image"
+      "type": "image_picker",
+      "id": "image_header",
+      "label": "Pick Image",
+      "info": "Pick an image"
     }
   ],
   "presets": [
