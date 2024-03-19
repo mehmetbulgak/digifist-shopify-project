@@ -5,15 +5,14 @@
       "settings": {
       }
     },
-    "header_z6AtYt": {
-      "type": "header",
+    "left_section_WGnxEp": {
+      "type": "left_section",
       "settings": {
-        "image_header": "shopify:\/\/shop_images\/second-photo.jpg"
       }
     }
   },
   "order": [
     "banner",
-    "header_z6AtYt"
+    "left_section_WGnxEp"
   ]
 }
