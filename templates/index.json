@@ -1,11 +1,19 @@
 {
-    "sections": {
-        "banner": {
-            "type": "banner",
-            "settings": {}
-        }
+  "sections": {
+    "banner": {
+      "type": "banner",
+      "settings": {
+      }
     },
-    "order": [
-        "banner"
-    ]
+    "header_z6AtYt": {
+      "type": "header",
+      "settings": {
+        "image_header": "shopify:\/\/shop_images\/first-photo.jpg"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "header_z6AtYt"
+  ]
 }
