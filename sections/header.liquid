@@ -1,7 +1,9 @@
 <section>
   Smarten up your work look or throw on a blazer with jeans for the weekend
   <br>
-  {{ section.settings.image_header | image_url: width: 1500 | image_tag }}
+  <div style="width: 600px;">
+    {{ section.settings.image_header | image_url: width: 1500 | image_tag }}
+  </div>
 </section>
 
 {% schema %}
