@@ -1,0 +1,209 @@
+@font-face {
+    font-family: 'avenir_regularregular';
+    src: url('../assets/fonts/avenir_regular-webfont.woff2') format('woff2'),
+        url('../assets/fonts/avenir_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'itc_avant_garde_gothic_proBd';
+    src: url('../assets/fonts/itcavantgardepro-bold-webfont.woff2') format('woff2'),
+        url('../assets/fonts/itcavantgardepro-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'avenir_regularregular';
+}
+
+main {
+    min-height: 100vh;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    padding: 160px 56px 0px 56px;
+}
+
+.header-container {
+    width: 50%;
+}
+
+.header {
+    font-family: 'itc_avant_garde_gothic_proBd';
+    font-size: 39.06px;
+    line-height: 50.78px;
+    font-weight: 700;
+    padding-top: 69px;
+    padding-left: 68px;
+}
+
+.shop-now-button {
+    width: 140px;
+    height: 47px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 12.8px;
+    line-height: 17.48px;
+    margin-left: 68px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.shop-now-icon {
+    padding-left: 16.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shop-now-icon img {
+    width: 15px;
+}
+
+.header-photo img {
+    height: 684px;
+    margin-top: 96px;
+}
+
+.description-container {
+    width: 50%;
+}
+
+.description-photo-container {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.description-photo-container img {
+    height: 684px;
+}
+
+.description-photo-content {
+    background-color: white;
+    width: 291px;
+    height: 72px;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5px 0 16px;
+}
+
+.description-photo-name {
+    font-size: 12.8px;
+    line-height: 17.48px;
+    font-weight: 900;
+}
+
+.description-photo-price {
+    font-size: 12.8px;
+    line-height: 20.48px;
+    color: #666666;
+    font-weight: 400;
+}
+
+.description-photo-mini {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description-photo-mini img {
+    width: 62px;
+    height: 62px;
+}
+
+.description {
+    font-size: 20px;
+    line-height: 32px;
+    color: #666666;
+    font-weight: 400;
+    max-width: 432px;
+    margin: 128px auto 0 auto;
+}
+
+.read-more-button {
+    margin-top: 32px;
+    font-size: 16px;
+    line-height: 21.86px;
+    color: black;
+    font-weight: 900;
+    border-bottom: 1px solid black;
+    max-width: 83px;
+    padding-bottom: 5px;
+}
+
+.mobile-swiper {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    main {
+        flex-direction: column;
+        padding: 64px 0px 0px 24px;
+    }
+
+    .header-container {
+        width: 100%;
+    }
+
+    .header {
+        padding: initial;
+        font-size: 25px;
+        line-height: 32.5px;
+    }
+
+    .header-photo {
+        display: none;
+    }
+
+    .shop-now-button {
+        margin-left: initial;
+        margin-top: 24px;
+        width: 120px;
+        height: 35px;
+        font-size: 10.24px;
+        line-height: 16.79px;
+    }
+
+    .description-container {
+        width: 100%;
+    }
+
+    .description-photo-container {
+        display: none;
+    }
+
+    .description {
+        font-size: 16px;
+        line-height: 25.6px;
+        padding-right: 24px;
+        margin: 32px 0 0 0;
+    }
+
+    .description br {
+        display: none;
+    }
+
+    .mobile-swiper {
+        display: block;
+        margin-top: 32px;
+    }
+
+    .swiper-slide {}
+
+    .swiper-slide img {
+        width: 100%;
+    }
+}
