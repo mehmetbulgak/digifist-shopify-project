@@ -13,9 +13,7 @@
   </div>
 
   <div class="description">
-    At suspendisse augue lectus arcu, accumsan ut <br>
-    sit posuere vitae sit tincidunt semper eu proin <br>
-    leo gravida cursus.
+    {{ section.settings['description'] }}
 
     <div class="read-more-button">Read More</div>
   </div>
@@ -29,7 +27,7 @@
       "type": "image_picker",
       "id": "right-section-image",
       "label": "Pick Image",
-      "info": "Pick an image"
+      "info": "Pick Image"
     },
     {
       "type": "text",
@@ -47,7 +45,13 @@
       "type": "image_picker",
       "id": "mini-image",
       "label": "Pick Image",
-      "info": "Pick an image"
+      "info": "Pick Image"
+    },
+    {
+      "type": "text",
+      "id": "description",
+      "label": "Description",
+      "default": "Description"
     }
   ],
   "presets": [
