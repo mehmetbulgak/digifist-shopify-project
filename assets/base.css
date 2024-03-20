@@ -147,6 +147,7 @@ main {
         flex-direction: column;
         justify-content: initial;
         padding: 64px 0px 0px 24px;
+        min-height: initial;
     }
 
     .header-container {
