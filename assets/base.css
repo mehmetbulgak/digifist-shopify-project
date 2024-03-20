@@ -215,8 +215,8 @@ main {
     }
 
     .swiper-mini-photo img {
-        width: 64.55px;
-        height: 64.55px;
+        width: 64.55px !important;
+        height: 64.55px !important;
     }
 
     .swiper-slide img {
