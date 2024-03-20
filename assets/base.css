@@ -142,7 +142,7 @@ main {
     display: none;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1275px) {
     main {
         flex-direction: column;
         justify-content: initial;
