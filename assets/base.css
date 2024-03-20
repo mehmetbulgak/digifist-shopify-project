@@ -37,6 +37,7 @@ main {
     font-weight: 700;
     padding-top: 69px;
     padding-left: 68px;
+    max-width: 500px;
 }
 
 .shop-now-button {
@@ -156,6 +157,7 @@ main {
         padding: initial;
         font-size: 25px;
         line-height: 32.5px;
+        max-width: 312px;
     }
 
     .header-photo {
