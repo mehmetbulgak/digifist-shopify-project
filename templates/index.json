@@ -18,6 +18,8 @@
       "type": "right_section",
       "settings": {
         "right-section-image": "shopify:\/\/shop_images\/second-photo.jpg",
+        "product-name": "Saffiano leather bag 2005",
+        "product-price": "€199.95",
         "mini-image": "shopify:\/\/shop_images\/mini-photo.jpg"
       }
     }
