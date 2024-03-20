@@ -6,6 +6,13 @@
         "left-section-image": "shopify:\/\/shop_images\/first-photo.jpg"
       }
     },
+    "swiper_section_RH77fN": {
+      "type": "swiper_section",
+      "settings": {
+        "left-section-image": "shopify:\/\/shop_images\/second-photo.jpg",
+        "right-section-image": "shopify:\/\/shop_images\/first-photo.jpg"
+      }
+    },
     "right_section_BH8Gma": {
       "type": "right_section",
       "settings": {
@@ -16,6 +23,7 @@
   },
   "order": [
     "left_section_WGnxEp",
+    "swiper_section_RH77fN",
     "right_section_BH8Gma"
   ]
 }
