@@ -5,9 +5,16 @@
       "settings": {
         "left-section-image": "shopify:\/\/shop_images\/first-photo.jpg"
       }
+    },
+    "right_section_BH8Gma": {
+      "type": "right_section",
+      "settings": {
+        "right-section-image": "shopify:\/\/shop_images\/second-photo.jpg"
+      }
     }
   },
   "order": [
-    "left_section_WGnxEp"
+    "left_section_WGnxEp",
+    "right_section_BH8Gma"
   ]
 }
