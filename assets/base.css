@@ -202,6 +202,23 @@ main {
         position: relative;
     }
 
+    .swiper-mini-photo {
+        width: 72px;
+        height: 72px;
+        background-color: white;
+        position: absolute;
+        right: 16px;
+        bottom: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .swiper-mini-photo img {
+        width: 64.55px;
+        height: 64.55px;
+    }
+
     .swiper-slide img {
         width: 100%;
     }

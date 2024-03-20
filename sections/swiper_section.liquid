@@ -3,7 +3,9 @@
     <div class="swiper-wrapper">
       <div class="swiper-slide">
         <img src="{{ section.settings.left-section-image | image_url }}">
-        <div style="width: 72px; height: 72px; background-color: white"></div>
+        <div class="swiper-mini-photo">
+          <img src="{{ section.settings.swiper-mini-image | image_url }}">
+        </div>
       </div>
       <div class="swiper-slide">
         <img src="{{ section.settings.right-section-image | image_url }}">
@@ -30,6 +32,12 @@
     {
       "type": "image_picker",
       "id": "left-section-image",
+      "label": "Pick Image",
+      "info": "Pick an image"
+    },
+    {
+      "type": "image_picker",
+      "id": "swiper-mini-image",
       "label": "Pick Image",
       "info": "Pick an image"
     },
