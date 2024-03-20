@@ -1,18 +1,13 @@
 {
   "sections": {
-    "banner": {
-      "type": "banner",
-      "settings": {
-      }
-    },
     "left_section_WGnxEp": {
       "type": "left_section",
       "settings": {
+        "left-section-image": "shopify:\/\/shop_images\/first-photo.jpg"
       }
     }
   },
   "order": [
-    "banner",
     "left_section_WGnxEp"
   ]
 }
