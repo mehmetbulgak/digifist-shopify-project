@@ -3,8 +3,8 @@
     <img src="{{ section.settings.right-section-image | image_url }}">
     <div class="description-photo-content">
       <div class="description-photo-name-price">
-        <div class="description-photo-name">Saffiano leather bag 2005</div>
-        <div class="description-photo-price">€199.95</div>
+        <div class="description-photo-name">{{ section.settings['product-name'] }}</div>
+        <div class="description-photo-price">{{ section.settings['product-price'] }}</div>
       </div>
       <div class="description-photo-mini">
         <img src="{{ section.settings.mini-image | image_url }}">
@@ -30,6 +30,18 @@
       "id": "right-section-image",
       "label": "Pick Image",
       "info": "Pick an image"
+    },
+    {
+      "type": "text",
+      "id": "product-name",
+      "label": "Product Name",
+      "default": "Product Name"
+    },
+    {
+      "type": "text",
+      "id": "product-price",
+      "label": "Product Price",
+      "default": "Product Price"
     },
     {
       "type": "image_picker",
