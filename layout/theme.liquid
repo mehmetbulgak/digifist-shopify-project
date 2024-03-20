@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {{ 'base.css' | asset_url | stylesheet_tag }}
-    <script src="{{ 'swiper-bundle.min.js' | asset_url }}" async></script>
+    {{ 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css' | stylesheet_tag }}
     {{ content_for_header }}
   </head>
   <body>
