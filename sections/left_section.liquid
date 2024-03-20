@@ -1,13 +1,8 @@
 <div class="header-container">
-  <div class="header">
-    Smarten up your work 
-    look or throw on a blazer 
-    with jeans for the 
-    weekend
-  </div>
+  <div class="header">{{ section.settings['left-section-header'] }}</div>
   <div class="shop-now-button">
     <div class="shop-now-text">SHOP NOW</div>
-    <div class="shop-now-icon"> > </div>
+    <div class="shop-now-icon">></div>
   </div>
   <div class="header-photo">
     <img src="{{ section.settings.left-section-image | image_url }}">
@@ -18,6 +13,12 @@
 {
   "name": "Left Section",
   "settings": [
+    {
+      "type": "text",
+      "id": "left-section-header",
+      "label": "Left Section Header",
+      "default": "Left Section Header"
+    },
     {
       "type": "image_picker",
       "id": "left-section-image",
