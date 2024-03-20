@@ -1,4 +1,9 @@
 {
   "current": {
+    "checkout_heading_font": "Helvetica Neue",
+    "checkout_body_font": "Helvetica Neue",
+    "content_for_index": [
+
+    ]
   }
 }
