@@ -22,27 +22,26 @@
 </div>
 
 {% schema %}
+{
+  "name": "Right Section",
+  "settings": [
     {
-      "name": "Right Section",
-      "settings": [
-        {
-          "type": "image_picker",
-          "id": "right-section-image",
-          "label": "Pick Image",
-          "info": "Pick an image"
-        },
-        {
-          "type": "image_picker",
-          "id": "mini-image",
-          "label": "Pick Image",
-          "info": "Pick an image"
-        }
-      ],
-      "presets": [
-        {
-          "name": "rightSection"
-        }
-      ]
+      "type": "image_picker",
+      "id": "right-section-image",
+      "label": "Pick Image",
+      "info": "Pick an image"
+    },
+    {
+      "type": "image_picker",
+      "id": "mini-image",
+      "label": "Pick Image",
+      "info": "Pick an image"
     }
-    {% endschema %}
-    
+  ],
+  "presets": [
+    {
+      "name": "rightSection"
+    }
+  ]
+}
+{% endschema %}
