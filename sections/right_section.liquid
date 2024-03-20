@@ -1,0 +1,48 @@
+<div class="description-container">
+  <div class="description-photo-container">
+    <img src="{{ section.settings.right-section-image | image_url }}">
+    <div class="description-photo-content">
+      <div class="description-photo-name-price">
+        <div class="description-photo-name">Saffiano leather bag 2005</div>
+        <div class="description-photo-price">€199.95</div>
+      </div>
+      <div class="description-photo-mini">
+        <img src="{{ section.settings.mini-image | image_url }}">
+      </div>
+    </div>
+  </div>
+
+  <div class="description">
+    At suspendisse augue lectus arcu, accumsan ut <br>
+    sit posuere vitae sit tincidunt semper eu proin <br>
+    leo gravida cursus.
+
+    <div class="read-more-button">Read More</div>
+  </div>
+</div>
+
+{% schema %}
+    {
+      "name": "Right Section",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "right-section-image",
+          "label": "Pick Image",
+          "info": "Pick an image"
+        },
+        {
+          "type": "image_picker",
+          "id": "mini-image",
+          "label": "Pick Image",
+          "info": "Pick an image"
+        }
+      ],
+      "presets": [
+        {
+          "name": "rightSection"
+        }
+      ]
+    }
+    {% endschema %}
+    
