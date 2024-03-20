@@ -1,6 +1,24 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <style>
+      @font-face {
+    font-family: 'avenir_regularregular';
+    src: url('avenir_regular-webfont.woff2') format('woff2'),
+        url('avenir_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'itc_avant_garde_gothic_proBd';
+    src: url('itcavantgardepro-bold-webfont.woff2') format('woff2'),
+        url('itcavantgardepro-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {{ 'base.css' | asset_url | stylesheet_tag }}
