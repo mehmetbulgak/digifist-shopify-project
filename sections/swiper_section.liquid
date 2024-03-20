@@ -3,7 +3,7 @@
     <div class="swiper-wrapper">
       <div class="swiper-slide">
         <img src="{{ section.settings.left-section-image | image_url }}">
-        {% if section.settings.swiper-mini-image %}
+        {% if section.settings['swiper-mini-image'] %}
           <div class="swiper-mini-image">
             <img src="{{ section.settings.swiper-mini-image | image_url }}">
           </div>
@@ -16,7 +16,12 @@
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
-  <script src="../assets/swiper.js" defer></script>
+  <script>
+    const swiper = new Swiper('.mySwiper', {
+      slidesPerView: 1.3,
+      spaceBetween: 24,
+    });
+  </script>
 </div>
 
 {% schema %}
