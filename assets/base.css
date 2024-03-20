@@ -202,7 +202,7 @@ main {
         position: relative;
     }
 
-    .swiper-mini-photo {
+    .swiper-mini-image {
         width: 72px;
         height: 72px;
         background-color: white;
@@ -214,7 +214,7 @@ main {
         justify-content: center;
     }
 
-    .swiper-mini-photo img {
+    .swiper-mini-image img {
         width: 64.55px !important;
         height: 64.55px !important;
     }

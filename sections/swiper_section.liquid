@@ -3,9 +3,11 @@
     <div class="swiper-wrapper">
       <div class="swiper-slide">
         <img src="{{ section.settings.left-section-image | image_url }}">
-        <div class="swiper-mini-photo">
-          <img src="{{ section.settings.swiper-mini-image | image_url }}">
-        </div>
+        {% if section.settings.swiper-mini-image %}
+          <div class="swiper-mini-image">
+            <img src="{{ section.settings.swiper-mini-image | image_url }}">
+          </div>
+        {% endif %}
       </div>
       <div class="swiper-slide">
         <img src="{{ section.settings.right-section-image | image_url }}">
