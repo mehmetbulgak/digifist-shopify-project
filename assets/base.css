@@ -198,6 +198,10 @@ main {
         margin-top: 32px;
     }
 
+    .swiper-slide {
+        position: relative;
+    }
+
     .swiper-slide img {
         width: 100%;
     }
