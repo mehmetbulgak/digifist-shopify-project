@@ -9,7 +9,8 @@
     "right_section_BH8Gma": {
       "type": "right_section",
       "settings": {
-        "right-section-image": "shopify:\/\/shop_images\/second-photo.jpg"
+        "right-section-image": "shopify:\/\/shop_images\/second-photo.jpg",
+        "mini-image": "shopify:\/\/shop_images\/mini-photo.jpg"
       }
     }
   },
