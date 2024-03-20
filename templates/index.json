@@ -11,7 +11,6 @@
       "type": "swiper_section",
       "settings": {
         "left-section-image": "shopify:\/\/shop_images\/second-photo.jpg",
-        "swiper-mini-image": "shopify:\/\/shop_images\/mini-photo.jpg",
         "right-section-image": "shopify:\/\/shop_images\/first-photo.jpg"
       }
     },
