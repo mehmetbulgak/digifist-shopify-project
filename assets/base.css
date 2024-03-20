@@ -26,11 +26,8 @@ main {
     max-width: 1440px;
     margin: 0 auto;
     display: flex;
+    justify-content: space-between;
     padding: 160px 56px 0px 56px;
-}
-
-.header-container {
-    width: 50%;
 }
 
 .header {
@@ -71,10 +68,6 @@ main {
 .header-photo img {
     height: 684px;
     margin-top: 96px;
-}
-
-.description-container {
-    width: 50%;
 }
 
 .description-photo-container {
